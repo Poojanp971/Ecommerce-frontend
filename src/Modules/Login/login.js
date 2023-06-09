@@ -5,14 +5,14 @@ const Login = () => {
 	const navigation = useNavigate();
 	console.log('login');
 
-	const [request, setRequest] = useState([{}]);
-	useEffect(() => {
-		fetch('/api')
-			.then((response = response.json()))
-			.then((data) => {
-				setRequest(data);
-			});
-	}, []);
+	// const [request, setRequest] = useState([{}]);
+	// useEffect(() => {
+	// 	fetch('/api')
+	// 		.then((response = response.json()))
+	// 		.then((data) => {
+	// 			setRequest(data);
+	// 		});
+	// }, []);
 
 	return (
 		<div>
