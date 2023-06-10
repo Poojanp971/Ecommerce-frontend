@@ -5,18 +5,18 @@ const Login = () => {
 	const navigation = useNavigate();
 	console.log('login');
 
-	const [request, setRequest] = useState([{}]);
-	useEffect(() => {
-		fetch('/api')
-			.then((response = response.json()))
-			.then((data) => {
-				setRequest(data);
-			});
-	}, []);
+	// const [request, setRequest] = useState([{}]);
+	// useEffect(() => {
+	// 	fetch('/api')
+	// 		.then((response = response.json()))
+	// 		.then((data) => {
+	// 			setRequest(data);
+	// 		});
+	// }, []);
 
 	return (
 		<div>
-			<h1>This is Login Page</h1>
+			<h1>This is Login Page, hello</h1>
 			<button
 				onClick={() => {
 					navigation('/signup');
