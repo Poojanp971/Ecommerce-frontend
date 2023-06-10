@@ -12,6 +12,7 @@ const SignUp = () => {
 			<button type="submit" onClick={() => navigation(-1)}>
 				Submit
 			</button>
+			<h1>Thanks</h1>
 		</div>
 	);
 };
